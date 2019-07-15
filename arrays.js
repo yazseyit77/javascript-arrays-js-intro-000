@@ -31,5 +31,5 @@ function accessElementInArray(array, index){
 
 function accessElementInArray(array, index){
   var array = ["Ferrari, Bugatti", "McLaren", "Maseratti", "Tesla"];
-  return array.unshift();
+  array.shift();
 }
