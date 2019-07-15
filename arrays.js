@@ -24,6 +24,8 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array;
 }
 
-function accessElementInArray(){
-
+function accessElementInArray(array, index){
+  var array = ["Ferrari, Bugatti", "Tesla"];
+  array[1];
+  return array[1];
 }
