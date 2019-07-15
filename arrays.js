@@ -28,3 +28,8 @@ function accessElementInArray(array, index){
   var array = ["Ferrari, Bugatti", "McLaren", "Maseratti", "Tesla"];
   return array.indexOf("Tesla");
 }
+
+function accessElementInArray(array, index){
+  var array = ["Ferrari, Bugatti", "McLaren", "Maseratti", "Tesla"];
+  return array.unshift();
+}
