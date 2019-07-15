@@ -29,6 +29,12 @@ function accessElementInArray(array, index){
   index = array[3];
   return index;
 }
+function RemoveElementFromBeginningOfArray(array){
+  var array = [1, 2 ,3];
+  array = array.slice(1);
+  return array;
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(array){
   var array = [1, 2 ,3];
   array.shift();
@@ -37,6 +43,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 
 function removeElementFromEndOfArray(array){
   var array = [1, 2 ,3];
-  array = array.slice(1);
+  array = array.slice(3);
   return array;
 }
