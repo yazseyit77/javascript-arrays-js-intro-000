@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  var array = ['San Diego', 'Chciago', "foo"];
+  var array = ["foo"];
   array.unshift("Miami");
   return array;
 }
