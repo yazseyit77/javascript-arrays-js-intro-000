@@ -29,7 +29,8 @@ function accessElementInArray(array, index){
   index = array[3];
   return index;
 }
-function accessElementInArray(array, index){
-  var array = ["Ferrari, Bugatti", "McLaren", "Maseratti", "Tesla"];
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  var array = ["Ferrari", "Bugatti", "McLaren", "Maseratti", "Tesla"];
   array.shift();
+  return array;
 }
